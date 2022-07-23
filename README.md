@@ -20,3 +20,30 @@ A progressive introduction to Vue3 framework
 ![image info](./public/vue_default_page.PNG)
 
 You are up and ready to start...
+
+## What are .vue files ?
+
+A `.vue` file is a custom format that uses HTML-like syntax to describe a portion of 
+the UI
+
+Each `.vue` file consists of three types of top-level language blocks
+* `<template></template>`
+* `<script></script>`
+* `<style></style>`
+
+The `template` block is like the HTML of your UI
+
+The `script` block is where the logic and functionality of your application can be 
+maintained
+
+The `style` block is where you specify the CSS styles related to the markup in the
+template block
+
+## Components
+
+A `.vue` file is called a single file component (SFC)
+
+As a beginner, there is a lot to learn without having to worry about the component
+architecture
+
+## Table of content
