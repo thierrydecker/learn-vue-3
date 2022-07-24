@@ -47,3 +47,5 @@ As a beginner, there is a lot to learn without having to worry about the compone
 architecture
 
 ## Table of content
+
+* [Binding text](./docs/binding_text.md)
