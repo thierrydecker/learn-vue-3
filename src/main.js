@@ -8,6 +8,6 @@ import {createApp} from 'vue'
 // import App from './App.vue'
 
 /* Bing text application */
-import App from './BindingText.vue'
+import App from './components/BindingText.vue'
 
 createApp(App).mount('#app')
