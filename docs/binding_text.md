@@ -14,3 +14,6 @@ Use `{{ dataPropertyName }}` in HTML inner elements
 Use the v-text directive in the opening HTML tags and leave the inner element blank
 
 * `<div v-text="dataPropertyName"></div>`
+
+- Inner element is left blank as it will be replaced with the provided data property
+- An error will occur if the inner element is not blank
