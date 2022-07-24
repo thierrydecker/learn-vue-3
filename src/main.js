@@ -7,7 +7,10 @@ import {createApp} from 'vue'
 /* Default application*/
 // import App from './App.vue'
 
-/* Bing text application */
-import App from './components/BindingText.vue'
+/* Bind text application */
+// import App from './components/BindingText.vue'
+
+/* Bind HTML application */
+import App from './components/Bindinghtml.vue'
 
 createApp(App).mount('#app')
