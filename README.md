@@ -49,3 +49,4 @@ architecture
 ## Table of content
 
 * [Binding text](./docs/binding_text.md)
+* [Binding HTML](./docs/binding_html.md)
