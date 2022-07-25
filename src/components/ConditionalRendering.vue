@@ -14,6 +14,7 @@
   <!--
   Conditional rendering of multiple HTML elements
   - Use v-if, v-else, v-else-if syntax
+  - if condition is false, element is not mounted in the DOM
   -->
   <template v-if="display">
     <h2>Thierry</h2>
@@ -25,6 +26,9 @@
   <!--
   Conditional rendering of multiple HTML elements
   - Use v-show syntax
+  - Element is mounted but CSS display is set to none
+  - Faster than v-if
+  - But can't be applied on template tag
   -->
   <div v-show="display">
     <h2>Thierry</h2>
