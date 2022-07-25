@@ -11,6 +11,9 @@ import {createApp} from 'vue'
 // import App from './components/BindingText.vue'
 
 /* Bind HTML application */
-import App from './components/Bindinghtml.vue'
+// import App from './components/BindingHtml.vue'
+
+/* Bind HTML application */
+import App from './components/BindingAttributes.vue'
 
 createApp(App).mount('#app')

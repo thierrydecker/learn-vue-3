@@ -50,3 +50,4 @@ architecture
 
 * [Binding text](./docs/binding_text.md)
 * [Binding HTML](./docs/binding_html.md)
+* [Binding attributes](./docs/binding_attributes.md)
