@@ -17,6 +17,9 @@ import {createApp} from 'vue'
 // import App from './components/BindingAttributes.vue'
 
 /* Bind HTML application */
-import App from './components/BindingClasses.vue'
+// import App from './components/BindingClasses.vue'
+
+/* Conditional rendering application */
+import App from './components/ConditionalRendering.vue'
 
 createApp(App).mount('#app')
