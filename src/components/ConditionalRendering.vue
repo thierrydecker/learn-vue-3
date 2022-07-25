@@ -21,6 +21,17 @@
     <h2>Cethun</h2>
   </template>
 
+
+  <!--
+  Conditional rendering of multiple HTML elements
+  - Use v-show syntax
+  -->
+  <div v-show="display">
+    <h2>Thierry</h2>
+    <h2>DECKER</h2>
+    <h2>Cethun</h2>
+  </div>
+
 </template>
 
 <script>
@@ -30,7 +41,7 @@ export default {
   data() {
     return {
       num: 1,
-      display: true,
+      display: false,
     }
   }
 }
